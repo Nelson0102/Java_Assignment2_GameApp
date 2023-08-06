@@ -1,0 +1,71 @@
+/* Styling for the main scene container */
+.main-scene {
+    -fx-background-color: #1e1e1e; /* Sets a dark background color */
+}
+
+/* Styling for the search text field */
+.search-field {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #d1d1d1; /* Border color */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 5px; /* Padding around text */
+    -fx-font-size: 14px; /* Font size */
+}
+
+/* Styling for the list view that displays games */
+.game-list-view {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #d1d1d1; /* Border color */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-cell-size: 30px; /* Cell size */
+    -fx-font-size: 14px; /* Font size */
+}
+
+/* Styling for the details scene container */
+.details-scene {
+    -fx-background-color: #1e1e1e; /* Dark background color, same as main scene */
+    -fx-padding: 20px; /* Padding around content */
+}
+
+/* Styling for the game image view */
+.game-image-view {
+    -fx-fit-width: 300px; /* Fixed width */
+    -fx-preserve-ratio: true; /* Maintain aspect ratio */
+    -fx-border-color: #d1d1d1; /* Border color */
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for the details label */
+.details-label {
+    -fx-font-size: 16px; /* Font size */
+    -fx-text-fill: #000000; /* Text color (black) */
+    -fx-min-height: 100px; /* Minimum height */
+    -fx-padding: 5px 0; /* Padding around text */
+}
+
+/* Styling for the back button */
+.back-button {
+    -fx-background-color: #2196F3; /* Background color */
+    -fx-text-fill: #ffffff; /* Text color (white) */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 10px 20px; /* Padding around text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-cursor: hand; /* Cursor style */
+}
+
+/* Styling for the back button on hover */
+.back-button:hover {
+    -fx-background-color: #1976D2; /* Darker background color on hover */
+}
+
+/* Styling for the game name label in the details scene */
+.name-label {
+    -fx-font-size: 20px; /* Larger font size */
+    -fx-text-fill: #ffffff; /* Text color (white) */
+    -fx-padding: 5px 0; /* Padding around text */
+}
+
+/* Styling for description label, if used */
+.label-description {
+    -fx-font-size: 18px; /* Font size */
+}
